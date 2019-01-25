@@ -1,0 +1,44 @@
+    1  ls
+    2  man
+    3  man env
+    4  mkdir CIT173_Lab2
+    5  cd CIT173_Lab2
+    6  @shell
+    7  @SHELL
+    8  echo @SHELL
+    9  echo $0
+   10  echo @SHELL
+   11  echo $SHELL
+   12  type
+   13  type bash
+   14  cd ~/
+   15  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files
+   16  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my_phonebook.txt
+   17* 
+   18  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+   19  wc ~/CIT173_Lab2/my-phonebook.txt
+   20  cat ~/CIT173_Lab2/my-phonebook.txt | less
+   21  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/myphonelisting.txt
+   22  tac ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-phonebook-reverse.txt
+   23  join ~/CIT173_Lab2/my-phonebook.txt ~/CIT173_Lab2/my-phonelisting.txt >~/CIT173_Lab2/my-joined-phonebook.txt
+   24  join ~/CIT173_Lab2/my-phonebook.txt ~/CIT173_Lab2/myphonelisting.txt >~/CIT173_Lab2/my-joined-phonebook.txt
+   25  unexpand -a -t ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   26  man unexpand
+   27  unexpand -a --tabs=2 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   28  print ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   29  cat
+   30  unexpand -a -t 2 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   31  cat ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   32  cat ~/CIT173_Lab2/my-phonebook.txt
+   33  cat ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   34  sort ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-sorted-phonebook.txt
+   35  cat ~/CIT173_Lab2/my-sorted-phonebook.txt
+   36  man sort
+   37  nl ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-numbered-phonebook.txt
+   38  cat ~/CIT173_Lab2/my-numbered-phonebook.txt
+   39  man head
+   40  head -n 5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-head-phonebook.txt
+   41  cat ~/CIT173_Lab2/my-head-phonebook.txt
+   42  man tail
+   43  tail -n 5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tail-phonebook.txt
+   44  history > ~/CIT173_Lab2/my-command-history.txt
